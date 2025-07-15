@@ -1,0 +1,67 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #e7e6f7;
+  color: #663399;
+  padding: 20px;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#malla {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.semestre {
+  border: 1px solid #e3d5ff;
+  padding: 10px;
+  width: 220px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.semestre h2 {
+  text-align: center;
+  color: #53478f;
+  font-size: 18px;
+}
+
+button.materia {
+  width: 100%;
+  margin: 4px 0;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+/* Estados de los botones */
+.materia.desactivada {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.materia.activada {
+  background-color: #d8b4f8; /* Lila suave */
+}
+
+.materia.aprobada {
+  background-color: #8bc19d; /* Verde */
+}
+
+#contador-creditos {
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #2b2e8d;
+}
