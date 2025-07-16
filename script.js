@@ -6,7 +6,7 @@ const materias = [
   { codigo: "23424", nombre: "Inglés I", creditos: 4, semestre: 1, requisitos: [] },
   { codigo: "22979", nombre: "Álgebra Lineal I", creditos: 4, semestre: 1, requisitos: [] },
   { codigo: "20252", nombre: "Cálculo I", creditos: 4, semestre: 1, requisitos: [] },
-  { codigo: "00000", nombre: "Cátedra UIS", creditos: 0, semestre: 1, requisitos: [] },
+  { codigo: "29205", nombre: "Cátedra UIS", creditos: 0, semestre: 1, requisitos: [] },
 
   // Semestre 2
   { codigo: "25248", nombre: "Química II", creditos: 4, semestre: 2, requisitos: ["25247"] },
@@ -63,7 +63,7 @@ const materias = [
 
   // Semestre 9
   { codigo: "22975", nombre: "Trabajo de Grado I", creditos: 3, semestre: 9, requisitos: ["24731"] },
-  { codigo: "22109", nombre: "Ética Ciudadana", creditos: 3, semestre: 9, requisitos: ["00000"] },
+  { codigo: "22109", nombre: "Ética Ciudadana", creditos: 3, semestre: 9, requisitos: ["29205"] },
   { codigo: "20411", nombre: "Análisis y Tratamiento de Datos", creditos: 4, semestre: 9, requisitos: [] },
 
   // Semestre 10
