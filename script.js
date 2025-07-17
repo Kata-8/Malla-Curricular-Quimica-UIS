@@ -21,6 +21,7 @@ const materias = [
   { codigo: "23425", nombre: "Inglés II", creditos: 4, semestre: 3, requisitos: ["23424"] },
   { codigo: "22953", nombre: "Física II", creditos: 4, semestre: 3, requisitos: ["22950"] },
   { codigo: "20254", nombre: "Cálculo III", creditos: 4, semestre: 3, requisitos: ["20253"] },
+  { codigo: "21936", nombre: "Educación Sexual", creditos: 3, semestre: 3, requisitos: [] },
 
   // Semestre 4
   { codigo: "24710", nombre: "Análisis Químico II", creditos: 4, semestre: 4, requisitos: ["24707"] },
@@ -29,6 +30,8 @@ const materias = [
   { codigo: "22956", nombre: "Física III", creditos: 4, semestre: 4, requisitos: ["22953"] },
   { codigo: "20255", nombre: "Ecuaciones Diferenciales", creditos: 4, semestre: 4, requisitos: ["20254"] },
   { codigo: "23423", nombre: "Cultura Física y Deportes", creditos: 1, semestre: 4, requisitos: [] },
+  { codigo: "23670", nombre: "Primeros Auxilios", creditos: 3, semestre: 4, requisitos: [] },
+  { codigo: "23426", nombre: "Inglés III", creditos: 4, semestre: 4, requisitos: ["23425"] },
 
   // Semestre 5
   { codigo: "24716", nombre: "Análisis Químico III", creditos: 4, semestre: 5, requisitos: ["24710"] },
@@ -37,6 +40,7 @@ const materias = [
   { codigo: "24715", nombre: "Laboratorio I de Química Orgánica", creditos: 3, semestre: 5, requisitos: ["24707"] },
   { codigo: "24713", nombre: "Seminario I", creditos: 1, semestre: 5, requisitos: [] },
   { codigo: "24712", nombre: "Introducción a la Química Cuántica", creditos: 4, semestre: 5, requisitos: ["20255", "24709"] },
+  { codigo: "23057", nombre: "Inglés IV", creditos: 4, semestre: 5, requisitos: ["23426"] },
 
   // Semestre 6
   { codigo: "24721", nombre: "Química Orgánica II", creditos: 5, semestre: 6, requisitos: ["24714"] },
@@ -44,6 +48,7 @@ const materias = [
   { codigo: "24720", nombre: "Biología Celular", creditos: 3, semestre: 6, requisitos: ["24714"] },
   { codigo: "24718", nombre: "Termodinámica", creditos: 4, semestre: 6, requisitos: ["24712"] },
   { codigo: "24719", nombre: "Laboratorio I de Fisicoquímica", creditos: 3, semestre: 6, requisitos: ["24712"] },
+  { codigo: "23058", nombre: "Inglés V", creditos: 4, semestre: 6, requisitos: ["23057"] },
 
   // Semestre 7
   { codigo: "24727", nombre: "Química Inorgánica I", creditos: 3, semestre: 7, requisitos: ["24712"] },
@@ -71,11 +76,6 @@ const materias = [
   { codigo: "Electiva3", nombre: "Electiva III", creditos: 4, semestre: 10, requisitos: [] },
   { codigo: "22977", nombre: "Trabajo de Grado II", creditos: 7, semestre: 10, requisitos: ["22975"] },
 
-  // Semestre 11 (Contexto y extras)
-  { codigo: "21936", nombre: "Educación Sexual", creditos: 3, semestre: 11, requisitos: [] },
-  { codigo: "23670", nombre: "Primeros Auxilios", creditos: 3, semestre: 11, requisitos: [] },
-  { codigo: "23426", nombre: "Inglés III", creditos: 4, semestre: 11, requisitos: ["23425"] },
-  { codigo: "23057", nombre: "Inglés IV", creditos: 4, semestre: 11, requisitos: ["23426"] },
 ];
 
 const aprobadas = new Set();
